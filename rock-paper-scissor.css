@@ -1,0 +1,105 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+body{
+background-color: cornsilk;
+height: 100vh;
+}
+.choices{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 160px;
+    margin-top: 75px;
+    
+}
+.choice{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 230px;
+    width: 191px;
+    cursor:pointer;
+}
+
+.img-1{
+border-radius: 50%;
+
+}
+.img-1:active{
+
+opacity: 0.7;
+}
+.img-1:hover{
+
+border:3px solid black;
+}
+.head-one{
+    text-align: center;
+    font-size:35px ;
+    background-color: black;
+    color: white;
+  padding: 5px;
+}
+.second-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    margin-top: 40px;
+}
+.para-1{
+    text-align: center;
+    font-size: 35px;
+}
+.para-2{
+    text-align: center;
+    font-size: 30px;
+
+}
+.para-3{
+    text-align: center;
+    font-size: 35px;
+}
+.para-4{
+    text-align: center;
+    font-size: 30px;
+}
+.sub-second{
+    border: 2px solid black ;
+    padding: 10px;
+    border-radius: 15px
+}
+.sub-third{
+    border: 2px solid black ;
+    padding: 12px;
+    border-radius: 15px
+}
+.reset{
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    border: none;
+}
+.third-div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.headTwo{
+    text-align: center;
+    margin-top: 50px;
+}
+.headTwo{
+    line-height: 19px;
+}

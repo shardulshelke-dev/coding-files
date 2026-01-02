@@ -1,0 +1,135 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background:linear-gradient(to bottom,#ff7600, #ff0000); ;
+}
+
+.main{
+    height: 100vh;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.container {
+    height: 90vh;
+    width: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-items: center;
+    align-items: center;
+    gap: 12px;
+}
+.box{
+    height: 25vh;
+    width: 30vh;
+    font-size: 100px;
+    background-color: white;
+    color: black;
+}
+.reset{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px rgb(105, 105, 105);
+        cursor: pointer;
+}
+.reset-pop{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px rgb(105, 105, 105);
+        cursor: pointer;    
+}
+.new-game{
+    height: 40px;
+    width: 100px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    box-shadow: 1px 2px 3px rgb(105, 105, 105);    
+    margin-top: 10px;
+        cursor: pointer;
+}
+.container-first{
+    position: absolute;
+    top: 25%;
+    left: 29%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #ff7600, #ff7600);
+    box-shadow: 3px 2px 2px 2px black;
+    border-radius: 10px;
+    padding: 68px;
+    width: 25%;
+    animation: scaleAndBounce  0.8s ease-out forwards;
+}
+.container-second{
+    position: absolute;
+    top: 25%;
+    left: 29%;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    margin: 20px;
+    padding: 10px;
+    background: linear-gradient(to bottom, #ff7600, #ff7600);
+    box-shadow: 3px 2px 2px 2px black;
+    border-radius: 10px;
+    padding: 68px;
+    width: 25%;
+    animation: scaleAndBounce  0.8s ease-out forwards;
+}
+.hide{
+    display: none;
+}
+.imgFirst{
+    border-radius: 50%;
+    margin-top: -55px;
+}
+.msg{
+    margin: 10px;
+    text-align: center;
+
+}
+.msg-1{
+     margin: 10px;
+    text-align: center;   
+}
+
+@keyframes scaleAndBounce {
+   0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    60% {
+        transform:scale(1.1); /* Overshoot */
+        opacity: 1;
+    }
+    80% {
+        transform: scale(0.9); /* Bounce back */
+    }
+    100% {
+        transform:  scale(1); /* Final position */
+        opacity: 1;
+    }
+}
